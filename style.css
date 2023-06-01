@@ -1,0 +1,11 @@
+.sandbox {
+    height: 75vh;
+    width: 75vw;
+    background-color: grey;
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    background-color: blueviolet;
+}
