@@ -5,4 +5,6 @@ function createGridSquare() {
     sandbox.appendChild(gridSquare);
 }
 
-createGridSquare();
+for (let i = 0; i < 16; i++) {
+    createGridSquare();
+}
