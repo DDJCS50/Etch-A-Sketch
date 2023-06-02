@@ -5,6 +5,7 @@ function createGridSquare() {
 }
 
 let gridRow;
+let gridSquare;
 
 function createGridRow() {
     for (let j = 0; j < 16; j++) {
@@ -18,4 +19,15 @@ function createGridRow() {
     }
 }
 
+function createHover() {
+    let squares = document.querySelectorAll('.square');
+    for (let k = 0; k < squares.length; k++) {
+        squares[k].addEventListener('mouseover', function() {
+            squares[k].style.backgroundColor = 'blue';
+        });
+    }
+}
+
+
 createGridRow();
+createHover();
