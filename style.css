@@ -6,6 +6,7 @@
     margin: 0;
     gap: 4px;
     flex-direction: column;
+    justify-content: center;
 }
 
 .square {
@@ -21,4 +22,10 @@ body {
     display: flex;
     justify-content: center;
     flex-shrink: 0;
+}
+
+.row {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
 }
