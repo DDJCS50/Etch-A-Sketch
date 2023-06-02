@@ -8,10 +8,10 @@ let gridRow;
 let gridSquare;
 
 function createGridRow() {
-    for (let j = 0; j < 16; j++) {
+    for (let j = 0; j < 50; j++) {
         gridRow = document.createElement('div');
         gridRow.setAttribute('class', 'row');
-        for (let i = 0; i < 16; i++) {
+        for (let i = 0; i < 50; i++) {
             createGridSquare();
         }
         sandbox = document.querySelector('div.sandbox');

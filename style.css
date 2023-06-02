@@ -10,12 +10,11 @@
 }
 
 .square {
-    height: 50px;
-    width: 50px;
     background-color: blueviolet;
     border-radius: 4px;
     display: flex;
-    flex-shrink: 0;
+    flex: 1;
+    aspect-ratio: 1/ 1;
 }
 
 body {
